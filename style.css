@@ -1,0 +1,78 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;}
+.cantainer{
+		width:90%;
+		margin:0 auto;
+		}
+.row{
+	display:flex;
+	}
+.col1{
+	
+	width:33.33%;
+	padding:0 15px;
+	}
+	img{
+	width:100%;}
+	.popular-course{
+	box-shadow:0 0 10px #ccc;
+	min-height:501px;
+}
+	.cont{
+	padding:20px;}
+.parent{
+	position:relative;
+		}
+.parent h5{
+position:absolute;
+top:10px;
+left:10px;
+background-color:white;
+color:blue;}
+.parent i{
+position:absolute;
+top:10px;
+right:30px;
+background-color:#8080808c;
+color:white;
+border-radius:50%;
+font-size:10px;
+padding:10px;
+}
+.update span{
+padding:0px 30px;}
+h3{
+padding:10px 0;}
+.icon-stars i{
+	padding:15px 5px;
+	color:orange;
+}
+.icon-stars{
+border-bottom:1px solid gray;
+padding:15px 0;}
+.last-cont{
+	display:flex;
+justify-content:space-between;
+padding:15px 25px;
+}
+
+.last-cont h4{
+color:blue;
+font-size:20px;}
+.last-cont i{
+	background-color:#80808036;
+	color:white;	
+	border-radius:50%;
+	padding:5px;}
+	.image{
+	transition:all 2s ease-in-out;}
+.col1:hover .image{
+	transform:scale(1.2);}
+.parent{
+overflow:hidden;}
+del{
+color:grey;
+padding:0 5px;
+font-size:15px;}
